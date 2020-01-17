@@ -1,2 +1,0 @@
-add_lunch_combo lineage_milletwifi-eng
-add_lunch_combo lineage_milletwifi-userdebug
