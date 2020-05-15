@@ -13,14 +13,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# inherit from common s3ve3g
+# inherit from common millet
 include device/samsung/millet-common/BoardConfigCommon.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := millet,milletwifi
-
-# Build Fingerprint
-BUILD_FINGERPRINT := samsung/milletwifixx/milletwifi:5.0.2/LRX22G/T330XXU1BOJ4:user/release-keys
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_milletwifi_defconfig
