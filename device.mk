@@ -17,11 +17,6 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# System properties
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.carrier=wifi-only \
-    ro.radio.noril=1
-
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/samsung/milletwifi/milletwifi-vendor.mk)
 
