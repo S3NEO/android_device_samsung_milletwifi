@@ -19,10 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # IR Blaster
 PRODUCT_PACKAGES += \
-    android.hardware.ir@1.0-service \
-    android.hardware.ir@1.0-impl \
-    consumerir.default \
-    consumerir.msm8226
+    android.hardware.ir@1.0-service.samsung
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
