@@ -22,7 +22,7 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-service.samsung
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/milletwifi/overlay
 
 # Permissions
 PRODUCT_COPY_FILES += \

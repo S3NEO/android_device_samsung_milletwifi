@@ -18,7 +18,6 @@
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
-
 $(call inherit-product, device/samsung/milletwifi/full_milletwifi.mk)
 
 PRODUCT_DEVICE := milletwifi
