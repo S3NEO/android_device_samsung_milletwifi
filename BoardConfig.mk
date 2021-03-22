@@ -16,19 +16,17 @@
 # inherit from common millet
 include device/samsung/millet-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/milletwifi
-
 # Assert
 TARGET_OTA_ASSERT_DEVICE := millet,milletwifi,milletwifiue
 
 # HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE += device/samsung/milletwifi/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_milletwifi_defconfig
 
 # SELinux
-include $(DEVICE_PATH)/sepolicy/sepolicy.mk
+include device/samsung/milletwifi/sepolicy/sepolicy.mk
 
 # inherit from the proprietary version
 -include vendor/samsung/milletwifi/BoardConfigVendor.mk
