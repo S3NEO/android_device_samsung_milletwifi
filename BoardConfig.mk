@@ -29,4 +29,4 @@ TARGET_KERNEL_CONFIG := lineage_milletwifi_defconfig
 include device/samsung/milletwifi/sepolicy/sepolicy.mk
 
 # inherit from the proprietary version
--include vendor/samsung/milletwifi/BoardConfigVendor.mk
+include vendor/samsung/milletwifi/BoardConfigVendor.mk

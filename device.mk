@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/samsung/milletwifi/milletwifi-vendor.mk)
+$(call inherit-product, vendor/samsung/milletwifi/milletwifi-vendor.mk)
 
 # common millet
 $(call inherit-product, device/samsung/millet-common/millet.mk)
