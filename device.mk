@@ -33,7 +33,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/samsung/milletwifi/milletwifi-vendor.mk)
+$(call inherit-product, vendor/samsung/milletwifi/milletwifi-vendor.mk)
 
 # common millet
 $(call inherit-product, device/samsung/millet-common/millet.mk)
