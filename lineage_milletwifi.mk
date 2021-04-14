@@ -22,3 +22,5 @@ $(call inherit-product, device/samsung/milletwifi/full_milletwifi.mk)
 
 PRODUCT_DEVICE := milletwifi
 PRODUCT_NAME := lineage_milletwifi
+
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
