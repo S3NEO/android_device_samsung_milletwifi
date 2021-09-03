@@ -24,6 +24,7 @@ DEVICE_MANIFEST_FILE += device/samsung/milletwifi/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_milletwifi_defconfig
+TARGET_KERNEL_RECOVERY_CONFIG := lineage_milletwifi_recovery_defconfig
 
 # SELinux
 include device/samsung/milletwifi/sepolicy/sepolicy.mk
